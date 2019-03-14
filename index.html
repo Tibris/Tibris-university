@@ -8,12 +8,12 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="icon" href="IMG/tibris-logo.jpg" type="image/x-icon" />
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 </html>
 
 <body>
-    <nav id="navbar">
+    <nav class="topnav" id="navbar">
             <a href="#" class="active">Kreu</a>
             <div class="dropdown">
                 <button class="dropbtn"><i class="fas fa-angle-down"></i> Fakultetet</button>
@@ -45,13 +45,16 @@
             </div>
             <a href="#">Galeria</a>
             <a href="#">Rreth Nesh</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></i></a>
             <form action="#">
+                <div class="search-div">
                 <button id="search-button" type="submit"><i class="fas fa-search"></i></button>
                 <input id="search-bar" type="search" placeholder=" K&#235rko..">
+                </div>
             </form>
     </nav>
     <section>
-        <h1 id="university-name">Tibris, Universiteti i Shkenc&#235s dhe Teknologjis&#235</h1>
+        <h1 id="university-name"><span id="tibris">Tibris</span> Universiteti i Shkenc&#235s dhe Teknologjis&#235</h1>
         <div class="slideshow-container">
            
             <div class="mySlides fade">
@@ -79,7 +82,7 @@
 
     <div class="container">
             <div id="fast-navigation">
-                    <h2>Navigim i shpejt&#235</h2>
+                    <h4>Navigim i shpejt&#235</h4>
                     <a href="#">Sekretaria Virtuale</a>
                     <a href="#">Erasmus+</a>
                     <a href="#">Vendndodhja</a>
@@ -95,21 +98,25 @@
     <article>
         <h1>Aktualitet</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac odio volutpat, tincidunt felis eu, eleifend justo. Quisque sed neque in metus placerat vulputate in faucibus quam. Quisque gravida tellus pellentesque ante malesuada, non facilisis mi efficitur. Praesent gravida feugiat ligula in sagittis. Donec a erat turpis. Fusce rutrum risus eget orci cursus, et fringilla odio molestie. Vivamus viverra luctus consequat. Morbi vitae nisi nec elit posuere fermentum. Pellentesque at sapien et arcu lobortis bibendum. Phasellus accumsan justo ipsum, sed semper velit viverra non. Suspendisse in volutpat massa. Nunc pulvinar mollis metus, quis sagittis lacus auctor vitae. Pellentesque fermentum justo orci, ac maximus leo cursus eu. Integer tortor diam, pulvinar quis venenatis sed, viverra ac lacus.</p>
+        <a href="#">Lexo m&#235 shum&#235...</a>
     </article>
 
     <article>
         <h1>Viti i pun&#235s intensive</h1>
         <p>Nullam libero velit, molestie nec mi ac, fermentum fermentum eros. Donec nisi magna, tempor interdum augue at, molestie imperdiet nunc. Vivamus pharetra quam vitae lectus sagittis eleifend. Sed quis faucibus elit, in commodo odio. Phasellus eget elementum arcu. Integer ut finibus turpis. Fusce tellus dui, pretium eu bibendum venenatis, sagittis eu nisi. In a mattis libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="#">Lexo m&#235 shum&#235...</a>
     </article>
 
     <article>
         <h1>Rritja n&#235 rankim e Tibris University</h1>
         <p>Nam velit neque, cursus sed elit sit amet, varius suscipit quam. Sed quis aliquam leo. Aliquam tristique efficitur nisi aliquet pulvinar. Aliquam eu volutpat odio. In euismod quis augue vel ullamcorper. Praesent fermentum, velit feugiat iaculis vehicula, ante ex congue augue, eu molestie nulla augue vel elit. Integer lectus sapien, pretium mattis dolor nec, aliquet tincidunt tellus. Mauris lectus odio, efficitur et eleifend sed, pellentesque vitae tortor. Sed turpis nisi, varius sit amet dapibus quis, tristique quis ex. Maecenas commodo convallis dignissim. Morbi ac elementum tellus, quis porttitor quam. Praesent tincidunt libero id libero gravida tristique. Maecenas egestas a justo vitae lobortis.</p>
+        <a href="#">Lexo m&#235 shum&#235...</a>
     </article>
 
     <article>
         <h1>L&#235vizja p&#235r arsimin</h1>
         <p>Curabitur viverra massa at urna bibendum venenatis eget vel nulla. Sed suscipit ultricies imperdiet. Nulla facilisi. Nullam aliquet sapien sit amet rutrum dapibus. Nulla ut ultrices augue. Mauris et dui sollicitudin, efficitur quam eu, mattis nulla. Nulla id pharetra tortor, a commodo sapien.</p>
+        <a href="#">Lexo m&#235 shum&#235...</a>
     </article>
 
     </div>

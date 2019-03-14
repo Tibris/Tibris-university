@@ -12,3 +12,15 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block"; 
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
+
+function myFunction() {
+  var x = document.getElementById("navbar");      //gets the elemenet with the id="navbar"
+  if (x.className === "topnav") {                 //if the element has a class="topnav"
+    x.className += " responsive";                 //we add the class responsive
+  } else {
+    x.className = "topnav";                      //if not, we just erase the class and add topnav
+  }
+}
+
+
+
